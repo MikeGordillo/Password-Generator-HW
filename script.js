@@ -1,4 +1,4 @@
-// Assignment Code
+// Variables
 
 var enter;
 var confirmNumber;
@@ -25,6 +25,7 @@ generateBtn.addEventListener("click", function () {
   document.getElementById("password").placeholder =ps;
 }); 
 
+// Interaction with User
 
 function writePassword() {
   enter = parseInt(prompt("How long would you like your password to be? Choose between 8 and 128"));
@@ -45,6 +46,8 @@ function writePassword() {
         choices = alert("You must choose a criteria!");
 
     }
+
+    //Confirm for criteria
   
     else if (confirmSymbols && confirmNumber && confirmUppercase && confirmLowercase) {
 
@@ -94,6 +97,8 @@ function writePassword() {
     };
 
   var password = [];
+
+  //Loop
 
    
   for (var i = 0; i < enter; i++) {
