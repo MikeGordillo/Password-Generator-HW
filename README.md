@@ -10,3 +10,4 @@ criteria should be generated.
 
 https://mikegordillo.github.io/Password-Generator-HW/
 https://github.com/MikeGordillo/Password-Generator-HW
+https://media.giphy.com/media/qnDuSxN26W2FK9XIHq/giphy.gif
