@@ -20,6 +20,7 @@ var toUpper = function (x) {
 };
 alpha2 = alpha.map(toUpper);
 
+//Created an event("click") that binds the generateBtn with the placeholder by using the ID of the Html element
 var generateBtn = document.querySelector("#generate");
 
 generateBtn.addEventListener("click", function () {
@@ -28,19 +29,17 @@ generateBtn.addEventListener("click", function () {
 }); 
 
 // Interaction with User
-
 function writePassword() {
   enter = parseInt(prompt("How long would you like your password to be? Choose between 8 and 128"));
     if (!enter) {
         alert("This needs a value");
     } else if (enter < 8 || enter > 128) {
        
-        enter = parseInt(prompt("You must choose between 8 and 128"));
+        enter = parseInt(prompt("You must choose between 8 and 128"));  
+    } 
 
-        //Confirm for criteria
-  
-
-    } else {
+    //Confirm for criteria
+    else {
         confirmNumber = confirm("Including Numbers?");
         confirmSymbols = confirm("Including Symbols?");
         confirmUppercase = confirm("Including Uppercase letters?");
@@ -52,7 +51,7 @@ function writePassword() {
 
     }
 
-          //Possible Combinations of Conditions
+         //Different possibilities of criteria conditions  
 
     else if (confirmSymbols && confirmNumber && confirmUppercase && confirmLowercase) {
 
