@@ -6,6 +6,8 @@ var confirmSymbols;
 var confirmUppercase;
 var confirmLowercase;
 
+//Values
+
 symbols = ["!","@","#","$","%","^","&","*","()","+","="];
 
 number = [0,1,2,3,4,5,6,7,8,9];
@@ -35,6 +37,9 @@ function writePassword() {
        
         enter = parseInt(prompt("You must choose between 8 and 128"));
 
+        //Confirm for criteria
+  
+
     } else {
         confirmNumber = confirm("Including Numbers?");
         confirmSymbols = confirm("Including Symbols?");
@@ -47,8 +52,8 @@ function writePassword() {
 
     }
 
-    //Confirm for criteria
-  
+          //Possible Combinations of Conditions
+
     else if (confirmSymbols && confirmNumber && confirmUppercase && confirmLowercase) {
 
         choices = symbols.concat(number, alpha, alpha2);
@@ -105,6 +110,10 @@ function writePassword() {
     var pickChoices = choices[Math.floor(Math.random() * choices.length)];
     password.push(pickChoices);
 }
+
+
+//Password
+
 
 var ps = password.join("");
 UserInput(ps);
