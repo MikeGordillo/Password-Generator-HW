@@ -7,6 +7,9 @@ questions, of which the answers will be used to generate said
 passwords. The criteria consists of length, between 8-128 characters,
 Lowercase and uppercase and symbols. A password based on the answered
 criteria should be generated.
+Added some comments on the javaScript page as to understand the 
+logic behind the code and to see how it interacts with the Html.
+
 
 https://mikegordillo.github.io/Password-Generator-HW/
 https://github.com/MikeGordillo/Password-Generator-HW
