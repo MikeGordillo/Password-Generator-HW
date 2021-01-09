@@ -13,4 +13,4 @@ logic behind the code and to see how it interacts with the Html.
 
 https://mikegordillo.github.io/Password-Generator-HW/
 https://github.com/MikeGordillo/Password-Generator-HW
-https://giphy.com/gifs/qnDuSxN26W2FK9XIHq
+![Alt Text]https://giphy.com/gifs/qnDuSxN26W2FK9XIHq
