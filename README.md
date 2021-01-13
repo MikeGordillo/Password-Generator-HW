@@ -10,7 +10,7 @@ criteria should be generated.
 Added some comments on the javaScript page as to understand the 
 logic behind the code and to see how it interacts with the Html.
 
-
+![screenshot]https://github.com/MikeGordillo/Password-Generator-HW/blob/main/Assets/2021-01-04%20(3).png
 https://mikegordillo.github.io/Password-Generator-HW/
 https://github.com/MikeGordillo/Password-Generator-HW
-![Alt Text]https://giphy.com/gifs/qnDuSxN26W2FK9XIHq
+![gif]https://giphy.com/gifs/qnDuSxN26W2FK9XIHq
